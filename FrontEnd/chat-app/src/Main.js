@@ -9,11 +9,11 @@ import Reset from "./Reset";
 const Main = () => (
   <div>
     <Switch>
-      <Route exact path="/Go-For-Chat/" component={Register} />
-      <Route path="/Go-For-Chat/Login" component={Login} />
-      <Route path="/Go-For-Chat/Forget" component={Forget} />
-      <Route path="/Go-For-Chat/App" component={App} />
-      <Route path="/Go-For-Chat/Reset" component={Reset} />
+      <Route path="/Register" component={Register} />
+      <Route path="/Login" component={Login} />
+      <Route path="/Forget" component={Forget} />
+      <Route path="/App" component={App} />
+      <Route path="/Reset" component={Reset} />
     </Switch>
   </div>
 );
